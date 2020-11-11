@@ -1,0 +1,254 @@
+<<<<<<< Updated upstream
+=======
+body{
+    background-color: #ca12a2bb (121, 77, 0.836);
+    margin:0px;
+}
+
+#maincontent{
+    background-color: rgb(211, 205, 205);
+    padding:1vw;
+    font-size:1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: dimgray;
+    
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.container h1{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #333;
+}
+.text{
+    padding: 20px;
+    text-align: center;
+    
+}
+.button{
+    min-width: 50%;
+    max-width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background:#333;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 1vw;
+    
+}
+.buttonClass{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+<!-- Navbar CSS content -->
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    font-size: 0.7rem;
+    mix-blend-mode: luminosity;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.navbar-links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.navbar ul li{
+    margin: 0 1em;
+    padding: 2em;
+
+}
+
+.navbar ul li a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f4f4f4;
+
+}
+
+.navbar ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+    background-color: white;
+
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+<!-- Footer content CSS -->
+
+.footer{
+    background-color: rgb(80, 140, 150);
+    text-align: center;
+    font-size: 1.8rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    width: 20%;    
+}
+.sources p{
+    background-color: rgb(255, 72, 0);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.terms p{
+    background-color: rgb(37, 141, 127);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.logo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+<!-- Media queries for navbar
+}
+.footer ul{
+    margin: auto;
+    width: 20%;    
+}
+.sources p{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.terms p{
+    background-color: rgb(37, 141, 127);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+-->.footer div{
+    margin: auto;
+    width: 20%;    
+}
+.sources p{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.terms p{
+    background-color: rgb(37, 141, 127);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+-->.footer div{
+    margin: auto;
+    width: 20%;    
+}
+.sources p{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.terms p{
+    background-color: rgb(37, 141, 127);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+-->
+>>>>>>> Stashed changes
