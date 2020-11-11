@@ -1,0 +1,40 @@
+body{
+    background-color: #ca12a2bb (121, 77, 0.836);
+    margin:0px;
+}
+#maincontent{
+    background-color: rgb(211, 205, 205);
+    padding:1vw;
+    font-size:1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: dimgray;
+    
+}
+.flex-containter{
+    display: flex;
+}
+.flex-containter > div{
+    margin: 10px;
+    padding:20px;
+
+}
+.navbar{
+
+    margin-bottom: 5px;
+}
+.footer{
+    background-color:#264348;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer p{
+    background-color: white;
+}
