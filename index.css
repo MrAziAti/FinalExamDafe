@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 body{
     background-color: #ca12a2bb (121, 77, 0.836);
     margin:0px;
@@ -59,29 +57,9 @@ body{
     align-items: center;
     text-align: center;
 }
-<!-- Navbar CSS content -->
+/*Navbar CSS content*/
 
-.navbar {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    min-height: 60px;
-    font-size: 0.7rem;
-    mix-blend-mode: luminosity;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-}
-.navbar-links{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-
-}
-.navbar ul {
+.header ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -90,23 +68,35 @@ body{
     justify-content: center;
 
 }
-
-.navbar ul li{
+li{
+    
+        display: inline-block;
+        padding-left: 0;
+        text-align: left;
+   
+}
+.navbar-links ul li{
     margin: 0 1em;
-    padding: 2em;
+    padding: 1em;
 
 }
+.navbar-links ul{
+    display: inline-block;
+    padding-left: 0;
+    text-align: left;
+}
 
-.navbar ul li a{
+.navbar-links ul li a{
+    
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: #f4f4f4;
+    color: #333;
 
 }
 
-.navbar ul li a::after{
+.navbar-links ul li a::after{
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -116,7 +106,7 @@ body{
     transition: all 0.2s linear;
 }
 
-.navbar ul li a:hover::after{
+.navbar-links ul li a:hover::after{
     width: 100%;
     background-color: white;
 
@@ -140,7 +130,7 @@ body{
     border-radius: 10px;
 }
 
-<!-- Footer content CSS -->
+/*<!-- Footer content CSS -->*/
 
 .footer{
     background-color: rgb(80, 140, 150);
@@ -182,8 +172,8 @@ body{
     margin-bottom: 5vh;
 }
 
-<!-- Media queries for navbar
-}
+/*<!-- Media queries for navbar*/
+
 .footer ul{
     margin: auto;
     width: 20%;    
@@ -250,5 +240,37 @@ body{
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
 -->
->>>>>>> Stashed changes
