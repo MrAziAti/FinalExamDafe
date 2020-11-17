@@ -13,7 +13,6 @@ body{
 }
 
 #maincontent{
-    width: 100%;
     height: 100vh;
     background-color: rgb(211, 205, 205);
     font-size:1vw;
@@ -25,18 +24,54 @@ body{
     border-top: 1px 0 solid black;
 
 }
+#termscontent{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.generic {
+    margin: 8vh 0vh 8vh 0vh;
+}
+
+.generic p,
+.generic ul{
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.generic ul{
+    padding: 0vw 0vw 0vw 2vw;
+}
+
+.liste{
+    list-style-type: circle black;
+}
+
+.smallHead{
+    font-weight: bold;
+    padding: 2vw 0vw 2vw 0vw; 
+}
 
 .text{
     justify-content: center;
     align-items: center;
- 
     text-align: center;
 }
+
 h2{
-    margin: 15px;
+    margin: 0vw 0vw 4vw 0vw;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Helvetica";
+    font-size: 2rem;
 }
 
 
@@ -238,6 +273,9 @@ li{
 
 
 /*<!-- Footer content CSS -->*/
+#footer{
+    border-top: 1px solid black;
+}
 
 .footer_links{
     list-style: none;
@@ -252,7 +290,7 @@ li{
 }
 .footer_links ul li {
     padding: 1em;
-    margin: 3em;
+    margin: 2em;
     text-align: center;
 }
 .footer_links ul li a{
