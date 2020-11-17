@@ -6,7 +6,7 @@
 body{
     color: black;
     color: black;
-    background-color: #ca12a2bb (121, 77, 0.836);
+    background-color:white;
     margin:0px;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@ body{
 
 #maincontent{
     height: 100vh;
-    background-color: rgb(211, 205, 205);
+    background-color: white;
     font-size:1vw;
     display:flex;
     flex-direction: column;
@@ -22,11 +22,12 @@ body{
     align-items: center;
     flex-wrap: wrap;
     border-top: 1px 0 solid black;
+    text-align: center;
 
 }
 #termscontent{
     width: 70%;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -105,7 +106,7 @@ h2{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(211, 205, 205);
+    background-color: white;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     
@@ -115,7 +116,7 @@ h2{
 #topsection{
     width: 100%;
     height: 100vh;
-    background-color: rgb(211, 205, 205);
+    background-color: white;
     font-size:1vw;
     display:flex;
     flex-direction: column;
@@ -127,7 +128,7 @@ h2{
 #secondaryContent{
     width: 100%;
     height: 100vh;
-    background-color: rgb(211, 205, 205);
+    background-color: white;
     font-size:1vw;
     display:flex;
     flex-direction: column;
@@ -158,7 +159,7 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(211, 205, 205);
+    background-color: lightgrey;
     font-family: arial;
    
 } 
@@ -170,7 +171,7 @@ h2{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    background-color: #2d3436;
+    background-color: lightgrey;
     
 
 }
@@ -201,9 +202,9 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: #fff;
+    color: black;
     padding: 5px 20px;
-    border: 1px solid #fff;
+    border: 1px solid black;
 
 }
 
@@ -242,7 +243,7 @@ li{
 }
 
 #maincontent{
-    background-color: rgb(211, 205, 205);
+    background-color: white;
     padding:1vw;
     font-size:1vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,7 +269,7 @@ li{
     justify-content: center;
     align-content: center;
     text-align: center;
-    background-color: #333;
+    background-color: white;
 }
 .text{
     padding: 20px;
