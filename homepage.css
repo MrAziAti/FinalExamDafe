@@ -24,7 +24,7 @@ body{
     justify-content: space-around;
     align-items: center;
     font-family: "Helvetica";
-    font-size: 2rem;
+    /*font-size: 2rem;*/
 
     
 }
@@ -37,29 +37,26 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.3rem;
 }
 .buttonClass{
     
-    align-items: center;
-    color: white;
-    background-color: grey;
     display: block;
-    border-radius: 40px;
-    font-size: 2vh;
-    padding: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 40%;
+    color: black;
+    margin-top: 50px;
     
-
 }
 .buttonClass a{
+    background-color: grey;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    font-family: arial;
+    color: black;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: 1px solid black;
     
 }
 
