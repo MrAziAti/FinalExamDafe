@@ -1,7 +1,23 @@
+<<<<<<< Updated upstream
 
+=======
+body{
+    color: black;
+    color: black;
+    background-color:white;
+    margin:0px;
+    scroll-behavior: smooth;
+    font-family: "lexendDeca","sans serif";
+
+}
+.maindisplay{
+  flex:column;
+  justify-content: space-around;
+  align-items: center;
+}
+>>>>>>> Stashed changes
 #topsection{
     width: 100%;
-    height: 100vh;
     background-color: white;
     font-size:1vw;
     display:flex;
@@ -11,9 +27,8 @@
     flex-wrap: wrap;
     border: 1px solid black;
 }
-#secondaryContent{
+#secondarycontent{
     width: 100%;
-    height: 100vh;
     background-color: white;
     font-size:1vw;
     display:flex;
@@ -23,6 +38,7 @@
     flex-wrap: wrap;
     border: 1px solid black;
 }
+<<<<<<< Updated upstream
 .column {
     background-color: blue;
     float: left;
@@ -35,6 +51,36 @@
     content: "";
     clear: both;
     display: table;
+=======
+#thirdcontent{
+  width: 100%;
+  background-color: white;
+  font-size:1vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.column {
+    background-color: blue;
+    float: right;
+    width: 33%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .row::after {
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    clear: both;
+
+>>>>>>> Stashed changes
   }
 *{
     margin:0;
@@ -49,17 +95,6 @@ body{
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#maincontent{
-    height: 100vh;
-    background-color: rgb(211, 205, 205);
-    font-size:1vw;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    border-top: 1px 0 solid black;
 
 }
 #termscontent{
@@ -94,13 +129,23 @@ body{
 
 .smallHead{
     font-weight: bold;
-    padding: 2vw 0vw 2vw 0vw; 
+    padding: 2vw 0vw 2vw 0vw;
 }
 
 .text{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+@@media (max width : 600px) {
+  .text{
+    font-size: 10vw;
+  }
 }
 
 h2{
@@ -110,6 +155,13 @@ h2{
     text-align: left;
     font-family: "Helvetica";
     font-size: 2rem;
+}
+h3{
+  margin: 0vw 0vw 4vw 0vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  font-size: 2rem;
 }
 
 
@@ -131,7 +183,7 @@ h2{
     color: #fff;
     font-family: arial;
 }
-    
+
 
 #subcontent{
     width: 100%;
@@ -146,7 +198,7 @@ h2{
     background-color: rgb(211, 205, 205);
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    
+
 }
 
 /*problem.html classes*/
@@ -168,8 +220,8 @@ h2{
     text-align: center;
     background-color: rgb(211, 205, 205);
     font-family: arial;
-   
-} 
+
+}
 
 .navbar-links {
     margin: 0;
@@ -179,32 +231,32 @@ h2{
     width: 100%;
     justify-content: flex-end;
     background-color: #2d3436;
-    
+
 
 }
 li{
-    
+
     display: inline-block;
     padding-left: 0;
     text-align: left;
-    
-   
+
+
 }
 .navbar-links ul li{
     margin: 0 0;
     padding: 5px;
-    
+
 
 }
 .navbar-links ul{
     display: inline-block;
     padding-left: 0;
     text-align: left;
-    
+
 }
 
 .navbar-links ul li a{
-    
+
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -255,7 +307,7 @@ li{
     font-size:1vw;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: dimgray;
-    
+
 }
 .content{
     width: 100%;
@@ -265,7 +317,7 @@ li{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 .container h1{
     margin: 0;
@@ -281,7 +333,7 @@ li{
 .text{
     padding: 20px;
     text-align: center;
-    
+
 }
 .button{
     min-width: 50%;
@@ -295,7 +347,7 @@ li{
     padding: 10px 0;
     cursor: pointer;
     font-size: 1vw;
-    
+
 }
 .buttonClass{
     width: 100%;
@@ -360,7 +412,7 @@ li{
 
 .footer ul{
     margin: auto;
-    width: 20%;    
+    width: 20%;
 }
 .sources p{
     background-color: rgb(255, 115, 0);
@@ -382,7 +434,7 @@ li{
 }
 -->.footer div{
     margin: auto;
-    width: 20%;    
+    width: 20%;
 }
 .sources p{
     background-color: rgb(255, 115, 0);
@@ -404,7 +456,7 @@ li{
 }
 -->.footer div{
     margin: auto;
-    width: 20%;    
+    width: 20%;
 }
 .sources p{
     background-color: rgb(255, 115, 0);
