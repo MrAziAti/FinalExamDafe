@@ -36,9 +36,24 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+#sourcecontent{
+    width: 100%;
+    background-color: rgb(218, 179, 179);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.generic2{
+    background-color: #aaa;
+    width: 20%;
 
+}
+.generic2 ul{
+    padding: 1vw;
+}
 .generic {
     margin: 8vh 0vh 8vh 0vh;
+    background-color: #eee;
 }
 
 .generic p,
@@ -67,7 +82,8 @@ body{
 
 .smallHead{
     font-weight: bold;
-    padding: 2vw 0vw 2vw 0vw; 
+    text-decoration: underline;
+    padding: 2vw 0vw 2vw 1vw; 
 }
 
 .text{
