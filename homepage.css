@@ -152,7 +152,7 @@ li{
     font-weight: 600;
     color: black;
     padding: 5px 20px;
-    border: 1px solid black;
+    border: 2px solid rgb(10, 148, 33);;
 
 }
 
@@ -168,7 +168,7 @@ li{
 
 .navbar-links ul li a:hover::after{
     width: 100%;
-    background-color: white;
+    background-color: rgb(10, 148, 33);;
 
 }
 
