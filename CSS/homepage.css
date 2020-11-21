@@ -119,6 +119,10 @@ h2{
     text-transform: capitalize;
     
 }
+
+
+<!-- Navbar CSS start -->
+
 .navbar {
     display: flex;
     position: relative;
@@ -237,4 +241,5 @@ li{
         display: flex;
     }
 }
--->
+
+<!-- Navbar CSS slutt -->
