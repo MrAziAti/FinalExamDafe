@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -28,6 +29,11 @@ body{
 
     
 }
+.smooth{
+    scroll-behavior: smooth;
+    text-align: center;
+    
+}
 .subcontent{
     height: 100vh;
     width: 100%;
@@ -39,14 +45,14 @@ body{
     
 }
 .container{
-    /*width: 100%;*/
     color: black;
     font-size: 16px;
-    font-weight: 200;
+    font-size: 1.4rem;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    font-size: 1.3rem;
-    justify-content: space-between;
+    
+    
     
 }
 
