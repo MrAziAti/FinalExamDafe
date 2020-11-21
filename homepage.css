@@ -54,9 +54,10 @@ body{
 .text{
     width: 50%;
     display: inline-block;
-    text-align: left;
-    align-content: center;
-    padding:50px;
+    text-align: center;
+    
+    vertical-align: middle;
+
 }
 
 .image{
@@ -69,8 +70,9 @@ body{
 .text2{
     width: 50%;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     /*padding: 40px;*/
+    vertical-align: middle;
 }
 
 .image2{
