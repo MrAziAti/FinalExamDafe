@@ -54,9 +54,10 @@ body{
 .text{
     width: 50%;
     display: inline-block;
-    text-align: left;
-    align-content: center;
-    padding:50px;
+    text-align: center;
+    
+    vertical-align: middle;
+
 }
 
 .image{
@@ -69,8 +70,9 @@ body{
 .text2{
     width: 50%;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     /*padding: 40px;*/
+    vertical-align: middle;
 }
 
 .image2{
@@ -86,8 +88,8 @@ img{
 h2{
     padding-bottom: 20px;
     text-transform: uppercase;
-    text-decoration: teal;
-    color: rgb(10, 148, 33);
+    text-decoration: rgb(71, 150, 25);;
+    color: rgb(71, 150, 25);
     text-align: center;
 }
 .buttonClass{
@@ -101,7 +103,7 @@ h2{
     
 }
 .buttonClass a{
-    background-color: rgb(10, 148, 33);
+    background-color: rgb(71, 150, 25);
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -150,9 +152,9 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: black;
+    color: rgb(71, 150, 25);;
     padding: 5px 20px;
-    border: 2px solid rgb(10, 148, 33);;
+    border: 2px solid rgb(71, 150, 25);
 
 }
 
@@ -168,7 +170,7 @@ li{
 
 .navbar-links ul li a:hover::after{
     width: 100%;
-    background-color: rgb(10, 148, 33);;
+    background-color: rgb(71, 150, 25);
 
 }
 
