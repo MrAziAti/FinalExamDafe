@@ -4,7 +4,8 @@ body{
     background-color:white;
     margin:0px;
     scroll-behavior: smooth;
-    font-family: "lexendDeca","sans serif";
+    font-family: 'Lexend Deca', sans-serif;
+
 
 }
 .maindisplay{
@@ -12,22 +13,21 @@ body{
   justify-content: space-around;
   align-items: center;
 }
+/*Dette er min jon sin css fil den innheholder noen bilder, 3 sectios og noen classes */
+
 #topsection{
     width: 100%;
-    height: 100vh;
     background-color: white;
     font-size:1vw;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     border: 1px solid black;
 }
 #secondaryContent{
     width: 100%;
-    height: 100vh;
-    background-color: white;
+
+    background-color: #CDCDCD;
     font-size:1vw;
     display:flex;
     flex-direction: column;
@@ -46,14 +46,23 @@ body{
   align-items: center;
   flex-wrap: wrap;
   border: 1px solid black;
+  
 }
 .column {
-    background-color: blue;
     float: right;
     width: 33%;
     padding: 5px;
     display: flex;
     justify-content: center;
+  }
+  
+  .responsible{
+      width: 100%;
+    
+  }
+  .responsible > img{
+width: 5vw;;
+border: 0.2vw solid black;
   }
 
 
@@ -65,6 +74,8 @@ body{
     clear: both;
 
   }
+
+  /*End av jon */
 *{
     margin:0;
     padding:0;
@@ -133,13 +144,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-
-
-}
-@media (max width : 600px) {
-  .text{
-    font-size: 10vw;
-  }
+  margin-right: 10vw;
 }
 
 h2{

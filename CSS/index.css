@@ -26,6 +26,10 @@ body{
     text-align: center;
 
 }
+
+/*<--------------------Styles terms.html---------------------->*/
+
+
 #termscontent{
     width: 70%;
     background-color: white;
@@ -70,6 +74,9 @@ body{
     font-weight: bold;
     padding: 2vw 0vw 2vw 1vw; 
 }
+
+/*<--------------------   ---------------------->*/
+
 
 .text{
     justify-content: center;
