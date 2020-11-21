@@ -34,6 +34,7 @@ body{
     color: rgb(71, 150, 25);;
     padding: 5px 20px;
     border: 2px solid rgb(71, 150, 25);  
+    
 }
 .container{
     height: 100vh;
@@ -43,7 +44,7 @@ body{
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -60,7 +61,7 @@ body{
 }
 .text2{
     width: 50%;
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 
