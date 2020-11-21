@@ -7,27 +7,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
 #header .logo{
     height: 10px;
     padding-left: 2em;
     padding-top: 0.5em;
     float: left;
-    
-  
-}
-.mainContainer{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-family: "Helvetica";
-    /*font-size: 2rem;*/
-
-    
 }
 .smooth{
     scroll-behavior: smooth;
@@ -39,11 +24,7 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     color: rgb(71, 150, 25);;
-    padding: 5px 20px;
-
-    
-    
-    
+    padding: 5px 20px;  
 }
 .smooth a{
     position: relative;
@@ -52,64 +33,40 @@ body{
     font-weight: 600;
     color: rgb(71, 150, 25);;
     padding: 5px 20px;
-    border: 2px solid rgb(71, 150, 25);
-    
-    
-    
-}
-.subcontent{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Helvetica";
-    /*font-size: 2rem;*/
-
-    
+    border: 2px solid rgb(71, 150, 25);  
 }
 .container{
+    height: 100vh;
+    width: 100%;
     color: black;
     font-size: 16px;
     font-size: 1.4rem;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
-    
 }
-
-
 .text{
     width: 50%;
-    display: inline-block;
+    display: block;
     text-align: center;
-    
-    vertical-align: middle;
-
 }
 
 .image{
-    width: 40%;
-    display: inline-block;
-    justify-content: space-between;
-    vertical-align: middle;
+    display: block;
     border-radius: 20px;  
 }
 .text2{
     width: 50%;
     display: inline-block;
     text-align: center;
-    /*padding: 40px;*/
-    vertical-align: middle;
 }
 
 .image2{
-    width: 40%;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
     border-radius: 20px;  
-    /*margin-right: 150px;*/
 }
 img{
     border-radius: 20px;
@@ -122,9 +79,6 @@ h2{
     text-align: center;
 }
 .buttonClass{
-    
-    display: block;
-    justify-content: center;
     align-items: center;
     text-align: center;
     color: black;
@@ -144,7 +98,7 @@ h2{
 }
 
 
-<!-- Navbar CSS start -->
+/*<!-- Navbar CSS start -->*/
 
 .navbar {
     display: flex;
@@ -263,6 +217,13 @@ li{
     .navbar-links.active {
         display: flex;
     }
+    
 }
 
-<!-- Navbar CSS slutt -->
+@media (max-width: 550px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
