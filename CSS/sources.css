@@ -22,32 +22,24 @@ body{
     width: 100%;
     justify-content: flex-end;
     background-color: white;
-    
-
 }
 li{
     
     display: inline-block;
     padding-left: 0;
-    text-align: left;
-    
-   
+    text-align: left; 
 }
 .navbar-links ul li{
     margin: 0 0;
     padding: 5px;
-    
-
 }
 .navbar-links ul{
     display: inline-block;
     padding-left: 0;
     text-align: left;
-    
 }
 
 .navbar-links ul li a{
-    
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -55,7 +47,6 @@ li{
     color: black;
     padding: 5px 20px;
     border: 2px solid rgb(71, 150, 25);
-
 }
 
 .navbar-links ul li a::after{
@@ -92,21 +83,15 @@ li{
     border-radius: 10px;
 }
 
-/*NAVBAR END*/
-
-/*MAINCONTENT*/
-
-#sourcecontent{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+/*<--------------------Source menu---------------------->*/
 
 #sourceheader{
-    background-color: #b6b6b6;
-
+    background-color: #6C7A89;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.info__btn a{
+    color: black;
 }
 .sourceHead_links{
     border-bottom: 1px solid black;
@@ -123,8 +108,6 @@ li{
     padding: 1em;
     margin: 2em;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
     text-transform: uppercase;
 }
 
@@ -133,6 +116,16 @@ li{
     text-decoration: none;
     color:#264348;
     font-size: 1.4rem;;
+}
+
+/*<--------------------Styles div elements---------------------->*/
+
+#sourcecontent{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .generic {
@@ -146,7 +139,7 @@ li{
     font-size: 1.3em;
     line-height: 1.5;
     letter-spacing: 2px;
-    border-bottom: 1px #264348;
+    border-bottom: 1px #354649;
 }
 .generic ul li a{
     text-decoration: none;
@@ -173,6 +166,7 @@ li{
 .img-responsive{
     max-width: 100%;
     height: auto;
+    margin: 2vw;
 }
 .content{
     margin: 2vw;
@@ -180,8 +174,7 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid black;   
+    background-color: #E0E7E9;
 }
 .content__left ul{
   line-height: 2;
@@ -199,7 +192,7 @@ li{
 
 #footer{
     border-top: 1px solid black;
-    background-color: #264348;
+    background-color: #354649;
 }
 
 .footer_links{
@@ -229,7 +222,7 @@ li{
     border-radius: 25px;
 }
 .sources a{
-    color: #264348;
+    color: #354649;
 }
 .terms {
     border-radius: 25px;
