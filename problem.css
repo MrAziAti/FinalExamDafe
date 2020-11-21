@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
 
-=======
 body{
     color: black;
     color: black;
@@ -15,7 +13,6 @@ body{
   justify-content: space-around;
   align-items: center;
 }
->>>>>>> Stashed changes
 #topsection{
     width: 100%;
     background-color: white;
@@ -45,8 +42,8 @@ body{
     width: 33%;
     padding: 5px;
   }
-  
-  
+
+
   .row::after {
     content: "";
     clear: both;
