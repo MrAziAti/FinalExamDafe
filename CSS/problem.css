@@ -63,6 +63,7 @@ body{
   .responsible > img{
 width: 5vw;;
 border: 0.2vw solid black;
+border-radius: 1vw;
   }
 
 
