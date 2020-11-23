@@ -13,34 +13,46 @@ body{
     padding-left: 2em;
     padding-top: 0.5em;
     float: left;
+    
+  
 }
 .smooth{
     scroll-behavior: smooth;
-    text-align: center;
-    font-weight: 200;
+    align-content: center;
     text-transform: uppercase;
     position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
     font-weight: 600;
     color: rgb(71, 150, 25);;
     padding: 5px 20px;  
+    margin-bottom: 100px;
 }
 .smooth a{
-    position: relative;
+    /*position: relative;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 600;
     color: rgb(71, 150, 25);;
     padding: 5px 20px;
-    border: 2px solid rgb(71, 150, 25);  
+    /*border: 2px solid rgb(71, 150, 25);
+    */
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    /*z-index: 2;*/
+    display: block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: rgb(71, 150, 25);
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
     
 }
 .container{
     height: 100vh;
     width: 100%;
     color: black;
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
@@ -54,24 +66,14 @@ body{
     display: block;
     text-align: center;
 }
-
-.image{
+.container img{
     display: block;
-    border-radius: 20px;  
-}
-.text2{
-    width: 50%;
-    display: block;
-    text-align: center;
+    min-width: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 40px;
 }
 
-.image2{
-    display: block;
-    border-radius: 20px;  
-}
-img{
-    border-radius: 20px;
-}
 h2{
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -83,7 +85,8 @@ h2{
     align-items: center;
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 40px;
+    
     
 }
 .buttonClass a{
@@ -94,6 +97,7 @@ h2{
     border-radius: 30px;
     padding: 5px 20px;
     border: 1px solid black;
+    border-radius: 30px;
     text-transform: capitalize;
     
 }
@@ -150,7 +154,7 @@ li{
     font-weight: 600;
     color: rgb(71, 150, 25);
     padding: 5px 20px;
-    border: 2px solid rgb(71, 150, 25);
+    /*border: 2px solid rgb(71, 150, 25);*/
 
 }
 
@@ -187,7 +191,7 @@ li{
     background-color: black;
     border-radius: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -221,10 +225,26 @@ li{
     
 }
 
-@media (max-width: 550px){
+@media (max-width: 900px){
     .container{
         flex-direction: column;
+        margin-top: 120px;
     }
+    .container img{
+        max-width: 400px;
+    }
+    .logo img{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .smooth{
+        position: relative;
+        top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     
 }
 

@@ -94,12 +94,13 @@ li{
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
-    background-color: #6C7A89;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    background-color: #ffffff;
 }
 .info__btn a{
     color: black;
+    font-size: 1.6rem;
+    padding: 1vw;
+    border: 3px solid #E0E7E9;
 }
 .sourceHead_links{
     border-bottom: 1px solid black;
@@ -162,7 +163,6 @@ li{
     text-align: left;
     font-size: 2rem;
 }
-
 .generic ul{
     padding: 0vw 0vw 0vw 2vw;
 }
@@ -182,7 +182,8 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #E0E7E9;
+    background-color: #ffffff;
+    border-bottom: 1px solid #354649;
 }
 .content__left ul{
   line-height: 2;
@@ -192,7 +193,7 @@ li{
 .content__right{
     text-align: center;
     padding-bottom: 2vw;
-    border-left: 1px solid black;
+    border-left: 1px solid #354649;
 
 }
 
@@ -239,9 +240,7 @@ li{
     color: #fff;
 }
 .logo{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-
+    color: #fff;
 }
 .logo a{
     color: #fff;
