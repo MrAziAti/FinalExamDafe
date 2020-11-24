@@ -18,13 +18,13 @@ body{
 }
 .smooth{
     scroll-behavior: smooth;
-    align-content: center;
     text-transform: uppercase;
     position: relative;
     font-weight: 600;
     color: rgb(71, 150, 25);;
     padding: 5px 20px;  
     margin-bottom: 100px;
+    align-items: center;
 }
 .smooth a{
     /*position: relative;
@@ -36,11 +36,12 @@ body{
     */
     display: block;
     position: absolute;
+    
     bottom: 80px;
-    left: 50%;
-    /*z-index: 2;*/
-    display: block;
-    -webkit-transform: translate(0, -50%);
+    /*left: 50%;*/
+    margin: auto;
+    z-index: 2;
+    /*-webkit-transform: translate(0, -50%);*/
     transform: translate(0, -50%);
     color: rgb(71, 150, 25);
     letter-spacing: .1em;
@@ -56,7 +57,7 @@ body{
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: nowrap;*/
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     text-align: center;
