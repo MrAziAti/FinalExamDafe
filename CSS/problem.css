@@ -1,12 +1,18 @@
-body{
-    color: black;
-    color: black;
-    background-color:white;
-    margin:0px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body{
     font-family: 'Lexend Deca', sans-serif;
-
-
+}
+#header .logo{
+    height: 10px;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    float: left;
 }
 .maindisplay{
   flex:column;
@@ -63,6 +69,53 @@ body{
     content: "";
     clear: both;
   }
+
+  .text{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 80%;
+  }
+  .text ul{
+      display: inline-block;
+      padding-left: 0px;
+      text-align: left;
+      /*text-decoration: solid;*/
+      list-style: square;
+  }
+  
+  h2{
+      margin: 0vw 0vw 4vw 0vw;
+      text-transform: uppercase;
+      text-align: left;
+       text-decoration: rgb(71, 150, 25);;
+      color: rgb(71, 150, 25);
+      text-align: center;
+      font-size: 2rem;
+  }
+  
+  
+  .buttonClass{
+      margin-top: 30px;
+      max-width: 20%;
+      align-items: center;
+      color: white;
+      background-color: grey;
+      border-radius: 40px;
+      font-size: 2vh;
+      padding: 20px;
+      text-align: center;
+  }
+  .buttonClass a{
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #fff;
+      font-family: arial;
+  } 
 @media screen and (max-width:800px){
     #secondaryContent{
         flex-direction: column;
@@ -92,82 +145,10 @@ border-radius: 1vw;
 
   
   /*End av jon */
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
 
-.generic {
-    margin: 8vh 0vh 8vh 0vh;
-}
-
-.generic p,
-.generic ul{
-    font-size: 1.3em;
-    line-height: 1.5;
-    letter-spacing: 2px;
-}
-
-.generic ul{
-    padding: 0vw 0vw 0vw 2vw;
-}
-
-.liste{
-    list-style-type: circle black;
-}
-
-.smallHead{
-    font-weight: bold;
-    padding: 2vw 0vw 2vw 0vw; 
-}
-
-.text{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  font-size: 1.4rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: block;
-  width: 80%;
-}
-.text ul{
-    display: inline-block;
-    padding-left: 0px;
-    text-align: left;
-    /*text-decoration: solid;*/
-    list-style: square;
-}
 
 
-h2{
-    margin: 0vw 0vw 4vw 0vw;
-    text-transform: uppercase;
-    text-align: left;
-    font-family: "Helvetica";
-    font-size: 2rem;
-}
-
-
-.buttonClass{
-    margin-top: 30px;
-    max-width: 20%;
-    align-items: center;
-    color: white;
-    background-color: grey;
-    border-radius: 40px;
-    font-size: 2vh;
-    padding: 20px;
-    text-align: center;
-}
-.buttonClass a{
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    font-family: arial;
-}
     
 
 
@@ -175,32 +156,6 @@ h2{
 
 
 /*Navbar CSS content*/
-#header .logo{
-    height: 10px;
-    padding-left: 2em;
-    padding-top: 0.5em;
-    float: left;
-    
-  
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    min-height: 60px;
-    font-size: 0.7rem;
-    mix-blend-mode: luminosity;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(211, 205, 205);
-    font-family: arial;
-   
-} 
-
 .navbar {
     display: flex;
     position: relative;
@@ -250,7 +205,7 @@ li{
     font-weight: 600;
     color: rgb(71, 150, 25);
     padding: 5px 20px;
-    border: 2px solid rgb(71, 150, 25);
+    /*border: 2px solid rgb(71, 150, 25);*/
 
 }
 
@@ -267,9 +222,7 @@ li{
 .navbar-links ul li a:hover::after{
     width: 100%;
     background-color: rgb(71, 150, 25);
-
 }
-
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -287,10 +240,11 @@ li{
     background-color: black;
     border-radius: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
     .toggle-button {
@@ -321,204 +275,30 @@ li{
     
 }
 
-.content{
-    width: 100%;
-    height: 100vh;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-.container h1{
-    margin: 0;
-}
-.container{
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    background-color: #333;
-}
-.text{
-    padding: 20px;
-    text-align: center;
-    
-}
-.button{
-    min-width: 50%;
-    max-width: 60%;
-    border: none;
-    outline: none;
-    border-radius: 50px;
-    background:#333;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px 0;
-    cursor: pointer;
-    font-size: 1vw;
-    
-}
-.buttonClass{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-/*Navbar CSS content*/
-
-
-
-/*<!-- Footer content CSS -->*/
-#footer{
-    border-top: 1px solid black;
-    background-color: #264348;
-}
-
-.footer_links{
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.footer_links ul{
-    display: inline-block;
-    padding: 2vw;
-    text-align: center;
-}
-.footer_links ul li {
-    padding: 1em;
-    margin: 2em;
-    text-align: center;
-}
-.footer_links ul li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.sources {
-    background-color: #fff;
-    border-radius: 25px;
-}
-.sources a{
-    color: #264348;
-}
-.terms {
-    border-radius: 25px;
-}
-.terms a{
-    color: #fff;
-}
-.logo{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.logo a{
-    color: #fff;
-}
-
-/*<!-- Media queries for navbar*/
-
-.footer ul{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
--->.footer div{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
--->.footer div{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-
-@media (max-width: 800px) {
-    .navbar {
+@media (max-width: 900px){
+    .container{
         flex-direction: column;
-        align-items: flex-start;
+        margin-top: 120px;
+        height: auto;
     }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
+    .container img{
+        max-width: 300px;
         flex-direction: column;
     }
-
-    .navbar-links ul li {
-        text-align: center;
+    .logo img{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .smooth{
+        position: relative;
+        top: 60px;
+        left: -8%;
+    
     }
 
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
+   
+    
+    
 }
--->
+

@@ -54,7 +54,6 @@ li{
     font-weight: 600;
     color: black;
     padding: 5px 20px;
-    border: 2px solid rgb(71, 150, 25);
 }
 
 .navbar-links ul li a::after{
