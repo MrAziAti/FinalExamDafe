@@ -18,13 +18,11 @@ body{
 }
 .smooth{
     scroll-behavior: smooth;
-    align-content: center;
     text-transform: uppercase;
     position: relative;
     font-weight: 600;
     color: rgb(71, 150, 25);;
     padding: 5px 20px;  
-    margin-bottom: 100px;
 }
 .smooth a{
     /*position: relative;
@@ -38,9 +36,9 @@ body{
     position: absolute;
     bottom: 80px;
     left: 50%;
-    /*z-index: 2;*/
-    display: block;
-    -webkit-transform: translate(0, -50%);
+    margin: auto;
+    z-index: 2;
+    /*-webkit-transform: translate(0, -50%);*/
     transform: translate(0, -50%);
     color: rgb(71, 150, 25);
     letter-spacing: .1em;
@@ -57,7 +55,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -65,10 +63,11 @@ body{
     width: 50%;
     display: block;
     text-align: center;
+    padding: 80px;
 }
 .container img{
     display: block;
-    min-width: 200px;
+    min-width: 100px;
     max-width: 100%;
     border-radius: 10px;
     padding: 40px;
@@ -231,7 +230,7 @@ li{
         margin-top: 120px;
     }
     .container img{
-        max-width: 400px;
+        max-width: 300px;
     }
     .logo img{
         max-width: 200px;
