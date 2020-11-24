@@ -54,11 +54,11 @@ body{
     display: block;
     text-align: center;
 }
-
 .image{
     display: block;
     border-radius: 20px;  
 }
+
 .text2{
     width: 50%;
     display: block;
