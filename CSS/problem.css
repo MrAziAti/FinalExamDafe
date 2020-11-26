@@ -32,12 +32,10 @@ body{
 }
 #secondaryContent{
     width: 100%;
-    background-color: #CDCDCD;
     font-size:1.4rem;
     display:flex;
     flex-direction: row;
     /*flex-wrap: wrap;*/
-    border: 1px solid black;
 }
 
 #thirdcontent{
@@ -92,8 +90,8 @@ body{
       margin: 0vw 0vw 4vw 0vw;
       text-transform: uppercase;
       text-align: left;
-       text-decoration: rgb(71, 150, 25);;
-      color: rgb(71, 150, 25);
+       text-decoration: #354649;;
+      color: #354649;
       text-align: center;
       font-size: 2rem;
   }
@@ -203,7 +201,7 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: rgb(71, 150, 25);
+    color: #354649;
     padding: 5px 20px;
     /*border: 2px solid rgb(71, 150, 25);*/
 
@@ -221,7 +219,7 @@ li{
 
 .navbar-links ul li a:hover::after{
     width: 100%;
-    background-color: rgb(71, 150, 25);
+    background-color: #354649;
 }
 .toggle-button {
     position: absolute;

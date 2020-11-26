@@ -52,7 +52,7 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: black;
+    color: #354649;
     padding: 5px 20px;
 }
 
@@ -68,7 +68,7 @@ li{
 
 .navbar-links ul li a:hover::after{
     width: 100%;
-    background-color: rgb(71, 150, 25);
+    background-color: #354649;
 
 }
 
@@ -93,13 +93,14 @@ li{
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
-    background-color: #ffffff;
+    background-color: #E0E7E9;
 }
 .info__btn a{
-    color: black;
-    font-size: 1.6rem;
+    color: #354649;
+    background-color: #fff;
+    font-size: 1rem;
     padding: 1vw;
-    border: 3px solid #E0E7E9;
+    border-radius: 5px;
 }
 .sourceHead_links{
     border-bottom: 1px solid black;
@@ -122,7 +123,7 @@ li{
 .sourceHead_links ul li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color:#264348;
+    color: #354649;
     font-size: 1.4rem;;
 }
 
@@ -239,7 +240,8 @@ li{
     color: #fff;
 }
 .logo{
-    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .logo a{
     color: #fff;
