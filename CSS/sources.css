@@ -11,12 +11,17 @@ body{
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;   
 }
+#header{
+    background-color: #E0E7E9;
+
+}
 #header .logo{
     height: 10px;
     padding-left: 2em;
     padding-top: 0.5em;
     float: left;
-    
+    background-color: #A3C6C4;
+
   
 }
 
@@ -29,7 +34,6 @@ body{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    background-color: white;
 }
 li{
     
@@ -93,7 +97,7 @@ li{
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
-    background-color: #E0E7E9;
+    border-bottom: 3px solid #E0E7E9;
 }
 .info__btn a{
     color: #354649;
