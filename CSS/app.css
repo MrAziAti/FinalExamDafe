@@ -70,12 +70,24 @@ body{
     padding-bottom: 5rem;
 }
 
+table, thead, tbody, th, td, tr {
 
 
+}
 
+ul.labels {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
 
-
-    
+}
+ul.labels li {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
 
 
 @media (max-width: 550px){
