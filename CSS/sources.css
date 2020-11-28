@@ -11,12 +11,17 @@ body{
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;   
 }
+#header{
+    background-color: #E0E7E9;
+
+}
 #header .logo{
     height: 10px;
     padding-left: 2em;
     padding-top: 0.5em;
     float: left;
-    
+    background-color: #E0E7E9;
+
   
 }
 
@@ -29,7 +34,6 @@ body{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    background-color: white;
 }
 li{
     
@@ -93,7 +97,8 @@ li{
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
-    background-color: #E0E7E9;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3vw;
 }
 .info__btn a{
     color: #354649;
@@ -103,28 +108,46 @@ li{
     border-radius: 5px;
 }
 .sourceHead_links{
-    border-bottom: 1px solid black;
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 .sourceHead_links ul{
     display: inline-block;
     text-align: center;
+    letter-spacing: 2px;
 }
 .sourceHead_links ul li {
-    padding: 1em;
-    margin: 2em;
+    padding: 0.7em;
+    margin: 1.5em;
     text-align: center;
-    text-transform: uppercase;
 }
-
 .sourceHead_links ul li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    text-transform: uppercase;
+}
+.sourceHead_links ul li a{    
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #354649;
-    font-size: 1.4rem;;
+    padding: 5px 20px;
+}
+.sourceHead_links ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.sourceHead_links ul li a:hover::after{
+    width: 100%;
+    background-color: #354649;
 }
 
 /*<--------------------Styles div elements---------------------->*/
@@ -140,7 +163,7 @@ li{
 
 .generic {
     width: 100%;
-    margin: 2vw;
+    margin: -1vw 2vw 2vw 2vw;
     background-color: rgb(255, 255, 255);
     color: #354649;
 }
@@ -229,9 +252,30 @@ li{
     text-decoration: none;
     text-transform: uppercase;
 }
+.footer_links ul li a{
 
-.sources {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 20px;
+}
+.footer_links ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.footer_links ul li a:hover::after{
+    width: 100%;
     background-color: #fff;
+}
+.sources {
+    background-color: #354649;
     border-radius: 25px;
 }
 .sources a{

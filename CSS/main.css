@@ -50,12 +50,13 @@
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 .footer_links ul{
     display: inline-block;
     padding: 2vw;
     text-align: center;
+    letter-spacing: 2px;
 }
 .footer_links ul li {
     padding: 1em;
@@ -67,9 +68,30 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+.footer_links ul li a{
 
-.sources {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 20px;
+}
+.footer_links ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.footer_links ul li a:hover::after{
+    width: 100%;
     background-color: #fff;
+}
+.sources {
+    background-color: #354649;
     border-radius: 25px;
 }
 .sources a{

@@ -49,11 +49,11 @@ body{
     font-size: 1.4rem;
 }
 .text{
-    width:70%;
+    width:80%;
     display: block;
-    text-align: center ;
-    
+    text-align: left ;
 }
+
 h2{
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -65,7 +65,8 @@ h2{
     align-items: center;
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 0px;
+    padding-bottom: 20px;
     
 }
 .buttonClass a{
@@ -79,6 +80,7 @@ h2{
     text-transform: capitalize;
     
 }
+
 
 
 

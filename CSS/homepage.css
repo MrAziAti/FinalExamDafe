@@ -25,10 +25,12 @@ body{
     font-weight: 600;
     color: #354649;;
     padding: 5px 20px;  width: 100%;
-    bottom: 80px;
+    bottom: 160px;
+    padding-bottom: 60px;
 }
 .smooth a{
     height: auto;
+    width: 15%;
     display: block;
     text-align: center;
     margin: auto;
@@ -41,6 +43,30 @@ body{
     transition: opacity .3s;
     
     
+}
+.smooth a{
+
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #354649;
+    padding: 5px 20px;
+    
+
+}
+.smooth a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.smooth a:hover::after{
+    width: 100%;
+    background-color: #354649;
 }
 .container{
     height: 100vh;
@@ -83,21 +109,70 @@ h2{
     
 }
 .buttonClass a{
-    background-color: #354649;
+    /*background-color: #354649;*/
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     border-radius: 30px;
     padding: 5px 20px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 30px;
     text-transform: capitalize;
     
 }
+.buttonClass a{
+
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #354649;
+    padding: 5px 20px;
+    /*border: 2px solid rgb(71, 150, 25);*/
+
+}
+.buttonClass a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.buttonClass a:hover::after{
+    width: 100%;
+    background-color: #354649;
+}
 
 
 /*<!-- Navbar CSS start -->*/
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        margin-top: 120px;
+        height: auto;
+        width: 100%;
+    }
 
+    .container img {
+        max-width: 300px;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+
+    .logo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smooth a {
+        width: 40%;
+    }
+}
 
    
     
