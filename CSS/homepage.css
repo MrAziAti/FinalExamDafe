@@ -169,9 +169,8 @@ h2{
         margin-right: auto;
     }
 
-    .smooth {
-        top: 30px;
-        bottom: 20px;
+    .smooth a {
+        width: 40%;
     }
 }
 
