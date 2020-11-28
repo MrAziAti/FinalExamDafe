@@ -233,7 +233,30 @@ li{
     text-decoration: none;
     text-transform: uppercase;
 }
+.footer_links ul li a{
 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #354649;
+    padding: 5px 20px;
+    /*border: 2px solid rgb(71, 150, 25);*/
+
+}
+.footer_links ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.footer_links ul li a:hover::after{
+    width: 100%;
+    background-color: #354649;
+}
 .sources {
     background-color: #fff;
     border-radius: 25px;
