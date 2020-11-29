@@ -159,7 +159,39 @@ body{
   } 
 
 
-@media  (max-width:800px){
+@media  (max-width:900px){
+    #thirdcontent{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #secondaryContent{
+        flex-direction: column;
+        height: auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #topsection{
+        flex-direction: column;
+        height: auto;
+    }
+    .column > img{
+        width: 100%;
+
+    }
+    .logo img{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .smooth a {
+        width: 40%;
+    }
+
+    
+}
+@media  (max-width:550px){
     #thirdcontent{
         flex-direction: column;
         height: auto;

@@ -27,7 +27,7 @@ body{
     height: 100vh;
     padding-top: 150px;
     padding-bottom: 150px;
-    color: black;
+    color: #354649;
     display: flex;
     flex-direction: column;
     justify-content: center ;
@@ -36,6 +36,8 @@ body{
 }
     
 .kontaktskjema{
+    background-color: #E0E7E9;
+    border-radius: 25px;
     width: 35%;
     color: #354649;
     height: auto;

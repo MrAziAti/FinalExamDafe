@@ -306,7 +306,9 @@ li{
   line-height: 2;
   margin: 2vw;
 }
-
+.content__left p a{
+    text-decoration: none;
+}
 .content__right{
     text-align: center;
     padding-bottom: 2vw;
