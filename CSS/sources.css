@@ -317,13 +317,14 @@ li{
 .footer_links{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 }
 .footer_links div{
-    height: 100%;
     margin: auto;
+    align-items: center;
 }
 .footer_links a{
     transition: all 0.3s ease 0s;
@@ -331,7 +332,6 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    margin: auto;
 }
 .footer_links a::after{
     position: absolute;
@@ -351,22 +351,14 @@ li{
     text-align: center;
 }
 .sources {
-    background-color: #eee;
     margin: auto;
-    padding: 1.3vw;
+    padding: 3vw 0vw 3vw 0vw;
 }
 .sources a{
     color: #fff;
 }
-.logo1{
-    max-width: 100%;
 
-}
-.logo1 a{
-    text-decoration: none;
-    list-style: none;
-    max-width: 100%;
-    height: auto;
+.logo1 {
 }
 
 /*NAVBAR Media*/

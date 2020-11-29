@@ -29,65 +29,49 @@
 }
     
 
-.box-top{ 
-    display: flex;
+.float-container{ 
     width: 100%;
     height: auto;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
     align-items: center;
-    justify-content: space-around;
-    align-content: center;
-    float:left;
-    padding:20px;
-    border:2px solid black;
-    width: 50%;
-    font-size: 20px;
-}
-.float-container{
-    border : 3px solid #fff;
-    padding:20px;
+    text-align: center; 
 }
 
-.box1{
+.text{
+    width: 60%;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+    padding: 50px;
+}
+.labelHeading{
+    text-align: center;
+    text-transform: uppercase;
     
-    justify-content: center;
-    align-content: center;
-    margin-top:10rem;
-    text-align: center;
-    float:left;
-    padding:20px;
-    border:2px solid black;
-    width: 50%;
-    font-size: 20px;
 }
-
-
-.category{
-    justify-content: center;
-    align-content: center;
-    margin-top:16rem;
-    text-align: center;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
+.image{
+    display: block;
+    width: 40%;
+     
 }
-.category h2{
-    padding-bottom: 5rem;
+.appstore{
+    height: auto;
+    bottom: 50px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15rem;
+    margin-top: 15rem;
+    text-align: center;
+    
 }
 .p-quote{
     background-color:  #E0E7E9;
     padding:2rem;
     width:100%;
 }
-.container{ 
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
-    padding: 10px;
-    font-size: 1.4rem;
-}
+
 
 ul.labels {
     margin: 0;
@@ -95,19 +79,6 @@ ul.labels {
     white-space: nowrap;
     width: 100%;
     overflow-x: auto;
-}
-ul.labels li {
-    display: inline;
-    width: 150px;
-    height: 150px;
-}
-
-
-@media (max-width: 550px){
-    .container{
-        flex-direction: column;
-    }
-    
+    margin-top:2rem;
     
 }
-

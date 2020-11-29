@@ -239,11 +239,11 @@ li{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .footer_links div{
-    height: 100%;
-    margin: 7vh 0vh 5vh 0vh;
+    margin: auto;
+    align-items: center;
 }
 .footer_links a{
     transition: all 0.3s ease 0s;
@@ -251,7 +251,6 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    margin: auto;
 }
 .footer_links a::after{
     position: absolute;
@@ -272,13 +271,12 @@ li{
 }
 .sources {
     margin: auto;
-    padding: 20px;
+    padding: 3vw 0vw 3vw 0vw;
 }
 .sources a{
     color: #fff;
 }
 .logo1{
-    max-width: 100%;
 
 }
 .logo1 a{
