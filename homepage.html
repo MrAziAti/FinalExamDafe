@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <section id="header">
     <div class="logo">
       <a href="homepage.html"> <img src="./bilder/Blad-removebg-preview.png" alt="Logo" width="200px"></a>
@@ -36,21 +35,25 @@
   </section>
 
   <div class="mainContainer">
-    <section id="mainContent">
+    <section id="content">
 
       <div class="container">
         <div class="text">
-          <h2>Our problem</h2>
-          <p>During the last couple of decades we have experience a drastic change of climate.
-            The temperature is rising and this is mostely due to human activity.
-            We hope that our app can push our consumer focused brains onto making the right decitions</p>
+          <div class="texten">
+            <h2>Our problem</h2>
+            <p>During the last couple of decades we have experience a drastic change of climate.
+              The temperature is rising and this is mostely due to human activity.
+              We hope that our app can push our consumer focused brains onto making the right decitions</p>
+          </div>
           <div class="buttonClass">
             <a href="problem.html">ReadMore</a>
           </div>
         </div>
 
+
+
         <div class="image">
-          <img src="./bilder/fax-1889024_640.jpg" alt="Bilde av App" >
+          <img src="./bilder/EasyCoappen.jpg" alt="Bilde av App">
         </div>
 
       </div>
@@ -58,6 +61,7 @@
       <div class="smooth">
         <h4><a href="#mainContent2"> Scroll Down</a></h3>
       </div>
+
 
 
   </div>
@@ -74,27 +78,27 @@
           <img src="./bilder/forsideCrop.jpg" alt="Bilde av søppeltønne" width="400">
         </div>
         <div class="text">
-          <h2>Our solution</h2>
-          <p> We have come up with an app idea that will make it easier for consumers and costumers to choose
-            products
-            that are better for our enviorment and climate. In our app we have multiple categories that the user can
-            navigate
-            to find the prodcuto of their desire and the user does not have to worry wether the prodcut is good or bad
-            for
-            the enviorment.</p>
+          <div class="texten">
+            <h2>Our solution</h2>
+            <p> We have come up with an app idea that will make it easier for consumers and costumers to choose
+              products
+              that are better for our enviorment and climate. In our app we have multiple categories that the user can
+              navigate
+              to find the prodcuto of their desire and the user does not have to worry wether the prodcut is good or bad
+              for
+              the enviorment.</p>
+          </div>
           <div class="buttonClass">
             <a href="solution.html">ReadMore</a>
           </div>
         </div>
       </div>
-
+      <div class="smooth">
+        <h4><a href="#content"><span></span> Scroll Up</a></h3>
+      </div>
   </div>
-  <div class="smooth">
-    <h4><a href="#mainContent"><span></span> Scroll Up</a></h3>
   </div>
 
-
-  </div>
   </section>
 
 
@@ -111,7 +115,20 @@
     </div>
   </section>
 
+  <script>
+    window.onscroll = function () { myFunction() };
 
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 
 </body>
 

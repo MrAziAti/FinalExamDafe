@@ -1,115 +1,5 @@
-#termscontent{
-    width: 70%;
-    background-color: white;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.generic {
-    margin: 8vh 0vh 8vh 0vh;
-}
 
-.generic p,
-.generic ul{
-    font-size: 1.3em;
-    line-height: 1.5;
-    letter-spacing: 2px;
-}
-
-.generic h2{
-    margin: 0vw 0vw 4vw 0vw;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: left;
-    font-family: "Helvetica";
-    font-size: 2rem;
-}
-
-.generic ul{
-    padding: 0vw 0vw 0vw 2vw;
-}
-
-.liste{
-    list-style-type: circle black;
-}
-
-.smallHead{
-    font-weight: bold;
-    padding: 2vw 0vw 2vw 0vw; 
-}
-#footer{
-    border-top: 1px solid black;
-    background-color: #354649;
-}
-
-.footer_links{
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-.footer_links ul{
-    display: inline-block;
-    padding: 2vw;
-    text-align: center;
-    letter-spacing: 2px;
-}
-.footer_links ul li {
-    padding: 1em;
-    margin: 2em;
-    text-align: center;
-}
-.footer_links ul li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.footer_links ul li a{
-
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    padding: 5px 20px;
-}
-.footer_links ul li a::after{
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    content: '';
-    width: 0;
-    height: 3px;
-    transition: all 0.2s linear;
-}
-.footer_links ul li a:hover::after{
-    width: 100%;
-    background-color: #fff;
-}
-.sources {
-    background-color: #354649;
-    border-radius: 25px;
-}
-.sources a{
-    color: #354649;
-}
-.terms {
-    border-radius: 25px;
-}
-.terms a{
-    color: #fff;
-}
-.logo{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.logo a{
-    color: #fff;
-}
 
 /*<!-- Media queries for navbar*/
 
@@ -166,6 +56,7 @@
     color: white;
     letter-spacing: 2px;
     line-height: 1.5;
+    overflow: hidden;
 
 }
 .navbar-links {
@@ -175,29 +66,21 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    background-color: white;
-
-
+    background-color: #E0E7E9 ;
 }
 li{
-
     display: inline-block;
     padding-left: 0;
     text-align: left;
-
-
 }
 .navbar-links ul li{
     margin: 0 0;
     padding: 5px;
-
-
 }
 .navbar-links ul{
     display: inline-block;
     padding-left: 0;
     text-align: left;
-
 }
 
 .navbar-links ul li a{
@@ -208,8 +91,7 @@ li{
     font-weight: 600;
     color: #354649;
     padding: 5px 20px;
-    /*border: 2px solid rgb(71, 150, 25);*/
-
+    display:block
 }
 
 .navbar-links ul li a::after{
@@ -225,6 +107,12 @@ li{
 .navbar-links ul li a:hover::after{
     width: 100%;
     background-color: #354649;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .toggle-button {
     position: absolute;
@@ -243,11 +131,11 @@ li{
     background-color: black;
     border-radius: 10px;
 }
+
 @media (max-width: 900px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-
     }
 
     .toggle-button {
@@ -325,4 +213,75 @@ li{
     padding: 2vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
+}
+
+/*-------------FOOTER------------*/
+
+#footer{
+    border-top: 1px solid black;
+    background-color: #354649;
+}
+
+.footer_links{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer_links ul{
+    display: inline-block;
+    padding: 2vw;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.footer_links ul li {
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+}
+.footer_links ul li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer_links ul li a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 20px;
+}
+.footer_links ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.footer_links ul li a:hover::after{
+    width: 100%;
+    background-color: #fff;
+}
+.sources {
+    background-color: #354649;
+    border-radius: 25px;
+}
+.sources a{
+    color: #354649;
+}
+.terms {
+    border-radius: 25px;
+}
+.terms a{
+    color: #fff;
+}
+.logo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo a{
+    color: #fff;
 }
