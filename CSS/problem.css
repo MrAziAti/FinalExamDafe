@@ -1,25 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
 
-body{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.5;  
-}
-#header{
-    background-color: #E0E7E9;
-}
-#header .logo{
-    height: 10px;
-    padding-left: 2em;
-    padding-top: 0.5em;
-    float: left;
-    
-}
 .smooth{
     scroll-behavior: smooth;
     text-transform: uppercase;
@@ -27,8 +6,8 @@ body{
     color: #354649;;
     padding: 5px 20px;  
     width: 100%;
-    bottom: 0px;
-    padding-bottom: 0px;
+    bottom: 40px;
+    
 }
 .smooth a{
     
@@ -46,6 +25,7 @@ body{
     /*border: 0.2px solid #354649;
     box-shadow: 2px 0px 2px 0 #354649;*/
     border-radius: 5px;
+    
 }
 
 /*Dette er min jon sin css fil den innheholder noen bilder, 3 sectios og noen classes */
@@ -203,6 +183,7 @@ body{
     }
     .row{
         flex-direction: column;
+        height: auto;
     }
     #topsection{
         flex-direction: column;

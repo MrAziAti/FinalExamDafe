@@ -1,27 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
 
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.5; 
-}
-#header{
-    background-color: #E0E7E9;
-}
-#header .logo{
-    height: 10px;
-    padding-left: 2em;
-    padding-top: 0.5em;
-    float: left;
-    
-  
-}
 
 .container{
     height: 100vh;
@@ -106,8 +83,9 @@ body{
 }
 
 @media (max-width: 900px){
-    .container {
+    .kontaktskjema {
         flex-direction: column;
+        width: 50%;
     }
     .logo img{
         max-width: 200px;

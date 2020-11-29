@@ -95,11 +95,31 @@ h2{
 
 
 
-@media (max-width: 550px){
-    .container{
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        margin-top: 120px;
+        height: auto;
+        width: 100%;
+    }
+
+    .container img {
+        max-width: 300px;
         flex-direction: column;
     }
-    
+    .text{
+        width: 100%;
+    }
+
+    .logo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smooth a {
+        width: 30%;
+    }
 }
 
 

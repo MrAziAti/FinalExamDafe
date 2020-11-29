@@ -2,7 +2,29 @@
 
 
 /*<!-- Media queries for navbar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5; 
+}
+#header{
+    background-color: #E0E7E9;
+
+}
+#header .logo{
+    height: 10px;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    float: left;
+}
 .footer ul{
     margin: auto;
     width: 20%;    
@@ -210,41 +232,28 @@ li{
 /*-------------FOOTER------------*/
 
 #footer{
-    border-top: 1px solid black;
     background-color: #354649;
 }
 
 .footer_links{
-    list-style: none;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
 }
-.footer_links ul{
-    display: inline-block;
-    padding: 2vw;
-    text-align: center;
-    letter-spacing: 2px;
+.footer_links div{
+    height: 100%;
+    margin: 7vh 0vh 5vh 0vh;
 }
-.footer_links ul li {
-    padding: 1em;
-    margin: 2em;
-    text-align: center;
-}
-.footer_links ul li a{
+.footer_links a{
     transition: all 0.3s ease 0s;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.footer_links ul li a{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
     color: #fff;
-    padding: 5px 20px;
+    margin: auto;
 }
-.footer_links ul li a::after{
+.footer_links a::after{
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -253,27 +262,28 @@ li{
     height: 3px;
     transition: all 0.2s linear;
 }
-.footer_links ul li a:hover::after{
+.footer_links a:hover::after{
     width: 100%;
     background-color: #fff;
 }
-.sources {
-    background-color: #354649;
-    border-radius: 25px;
-}
-.sources a{
-    color: #354649;
-}
-.terms {
-    border-radius: 25px;
-}
-.terms a{
-    color: #fff;
-}
+
 .logo{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
-.logo a{
+.sources {
+    margin: auto;
+    padding: 20px;
+}
+.sources a{
     color: #fff;
+}
+.logo1{
+    max-width: 100%;
+
+}
+.logo1 a{
+    text-decoration: none;
+    list-style: none;
+    max-width: 100%;
+    height: auto;
 }

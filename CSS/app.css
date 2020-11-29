@@ -71,10 +71,20 @@ body{
 .category h2{
     padding-bottom: 5rem;
 }
-
-table, thead, tbody, th, td, tr {
-
-
+.p-quote{
+    background-color:  #E0E7E9;
+    padding:2rem;
+    width:100%;
+}
+.container{ 
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+    font-size: 1.4rem;
 }
 
 ul.labels {
@@ -83,7 +93,6 @@ ul.labels {
     white-space: nowrap;
     width: 100%;
     overflow-x: auto;
-
 }
 ul.labels li {
     display: inline;

@@ -19,7 +19,6 @@ body{
     padding-left: 2em;
     padding-top: 0.5em;
     float: left;
-    background-color: #E0E7E9;
 }
 
 /*<-------NAVBAR------>*/
@@ -32,10 +31,7 @@ body{
     color: white;
     letter-spacing: 2px;
     line-height: 1.5;
-    overflow: hidden;
-
 }
-
 .navbar-links {
     margin: 0;
     padding: 1em;
@@ -43,12 +39,12 @@ body{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    background-color: #E0E7E9;
+    background-color: #E0E7E9 ;
 }
 li{
     display: inline-block;
     padding-left: 0;
-    text-align: left; 
+    text-align: left;
 }
 .navbar-links ul li{
     margin: 0 0;
@@ -61,6 +57,7 @@ li{
 }
 
 .navbar-links ul li a{
+
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -84,11 +81,6 @@ li{
     background-color: #354649;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -106,7 +98,7 @@ li{
     background-color: black;
     border-radius: 10px;
 }
-/*<--------------------Media @-------------------------->*/
+
 @media (max-width: 900px) {
     .navbar {
         flex-direction: column;
