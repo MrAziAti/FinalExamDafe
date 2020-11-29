@@ -325,21 +325,18 @@ li{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
-    margin: 4vw 0vw 4vw 0vw;
 }
-
+.footer_links div{
+    height: 100%;
+    margin: 7vh 0vh 5vh 0vh;
+}
 .footer_links a{
     transition: all 0.3s ease 0s;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.footer_links a{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
     color: #fff;
-    padding: 2vw;
+    margin: auto;
 }
 .footer_links a::after{
     position: absolute;
@@ -354,37 +351,28 @@ li{
     width: 100%;
     background-color: #fff;
 }
-.sources {
-    background-color: #354649;
-    border-radius: 25px;
-}
-.sources a{
-    color: #354649;
-}
-.terms {
-    border-radius: 25px;
-}
-.terms a{
-    color: #fff;
-}
+
 .logo{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
-.logo a{
+.sources {
+    margin: auto;
+    padding: 20px;
+}
+.sources a{
     color: #fff;
 }
 .logo1{
     max-width: 100%;
-    margin: auto;
+
 }
 .logo1 a{
     text-decoration: none;
-    color: #fff;
     list-style: none;
     max-width: 100%;
     height: auto;
 }
+
 /*NAVBAR Media*/
 @media (max-width: 800px) {
     .navbar {

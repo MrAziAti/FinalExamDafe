@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 
 body{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
-    
+    line-height: 1.5; 
+}
+#header{
+    background-color: #E0E7E9;
 }
 #header .logo{
     height: 10px;
@@ -52,6 +56,12 @@ body{
     width:80%;
     display: block;
     text-align: left ;
+}
+
+.p-quote{
+    background-color:  #E0E7E9;
+    padding:2rem;
+    width:100%;
 }
 
 h2{
