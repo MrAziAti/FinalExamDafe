@@ -317,41 +317,31 @@ li{
 /*<----------FOOTER------>*/
 
 #footer{
-    border-top: 1px solid black;
     background-color: #354649;
 }
 
 .footer_links{
-    list-style: none;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    margin: 4vw 0vw 4vw 0vw;
 }
-.footer_links ul{
-    display: inline-block;
-    padding: 2vw;
-    text-align: center;
-    letter-spacing: 2px;
-}
-.footer_links ul li {
-    padding: 1em;
-    margin: 2em;
-    text-align: center;
-}
-.footer_links ul li a{
+
+.footer_links a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     text-transform: uppercase;
 }
-.footer_links ul li a{
+.footer_links a{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    padding: 5px 20px;
+    padding: 2vw;
 }
-.footer_links ul li a::after{
+.footer_links a::after{
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -360,7 +350,7 @@ li{
     height: 3px;
     transition: all 0.2s linear;
 }
-.footer_links ul li a:hover::after{
+.footer_links a:hover::after{
     width: 100%;
     background-color: #fff;
 }
@@ -383,6 +373,17 @@ li{
 }
 .logo a{
     color: #fff;
+}
+.logo1{
+    max-width: 100%;
+    margin: auto;
+}
+.logo1 a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    max-width: 100%;
+    height: auto;
 }
 /*NAVBAR Media*/
 @media (max-width: 800px) {
