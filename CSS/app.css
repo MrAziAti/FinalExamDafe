@@ -27,6 +27,19 @@
     
 
 }
+.smooth a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.smooth a:hover::after{
+    width: 100%;
+    background-color: #354649;
+}
 .heading{
     align-content: center;
     margin-bottom: 2rem;
@@ -60,6 +73,7 @@
 .image{
     display: block;
     width: 40%;
+    
      
 }
 .appstore{
@@ -87,6 +101,35 @@ ul.labels {
     overflow-x: auto;
     margin-top:2rem;
     
+}
+@media (max-width: 900px) {
+    .float-container {
+        flex-direction: column;
+        margin-top: 120px;
+        height: auto;
+        width: 100%;
+    }
+
+    .image {
+        max-width: 300px;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+
+    .logo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smooth{
+        scroll-behavior: smooth;
+    }
+    .smooth a {
+        width: 40%;
+    }
 }
 @media (max-width: 550px) {
     .float-container {
