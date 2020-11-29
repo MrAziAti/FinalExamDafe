@@ -319,10 +319,11 @@ li{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    text-align: center;
 }
 .footer_links div{
     height: 100%;
-    margin: 7vh 0vh 5vh 0vh;
+    margin: auto;
 }
 .footer_links a{
     transition: all 0.3s ease 0s;
@@ -350,8 +351,9 @@ li{
     text-align: center;
 }
 .sources {
+    background-color: #eee;
     margin: auto;
-    padding: 20px;
+    padding: 1.3vw;
 }
 .sources a{
     color: #fff;
