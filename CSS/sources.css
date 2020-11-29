@@ -4,16 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    color: black;
-    color: black;
     background-color:white;
     margin:0px;
+    letter-spacing: 2px;
+    line-height: 1.5;
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: 'Roboto', sans-serif;   
 }
 #header{
-    background-color: #A3C6C4;
-
+    background-color: #E0E7E9;
 }
 #header .logo{
     height: 10px;
@@ -21,11 +20,21 @@ body{
     padding-top: 0.5em;
     float: left;
     background-color: #E0E7E9;
-
-  
 }
 
 /*<-------NAVBAR------>*/
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
 
 .navbar-links {
     margin: 0;
@@ -34,9 +43,9 @@ body{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    background-color: #E0E7E9;
 }
 li{
-    
     display: inline-block;
     padding-left: 0;
     text-align: left; 
@@ -73,9 +82,13 @@ li{
 .navbar-links ul li a:hover::after{
     width: 100%;
     background-color: #354649;
-
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -93,7 +106,64 @@ li{
     background-color: black;
     border-radius: 10px;
 }
+/*<--------------------Media @-------------------------->*/
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        margin-top: 120px;
+        height: auto;
+    }
+
+    .container img {
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .logo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smooth {
+        top: 30px;
+        bottom: 20px;
+    }
+}
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
@@ -164,6 +234,7 @@ li{
 #termscontent{
     width: 70%;
     background-color: white;
+    color: #354649;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -273,7 +344,6 @@ li{
     text-transform: uppercase;
 }
 .footer_links ul li a{
-
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
