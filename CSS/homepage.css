@@ -22,7 +22,6 @@ body{
     scroll-behavior: smooth;
     text-transform: uppercase;
     position: relative;
-    font-weight: 600;
     color: #354649;;
     padding: 5px 20px;  width: 100%;
     bottom: 80px;
@@ -111,12 +110,10 @@ h2{
     
 }
 .buttonClass a{
-    /*background-color: #354649;*/
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     padding: 5px 20px;
-    /*border: 1px solid black;*/
     text-transform: capitalize;
     border: 0.2px solid ;
     box-shadow: 2px 0px 2px 0 #354649;
