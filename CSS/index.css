@@ -30,16 +30,7 @@ body{
 /*<--------------------Styles terms.html---------------------->*/
 
 
-#termscontent{
-    width: 70%;
-    background-color: white;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 .generic {
     margin: 8vh 0vh 8vh 0vh;

@@ -161,26 +161,45 @@ li{
     flex-wrap: wrap;
 }
 
+#termscontent{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .generic {
     width: 100%;
     margin: -1vw 2vw 2vw 2vw;
     background-color: rgb(255, 255, 255);
     color: #354649;
 }
+.generic2 {
+    margin: 4vw 0vw 3.7vw 0vw;
+    background-color: rgb(255, 255, 255);
+}
 
 .generic p,
+.generic2 p,
+.generic2 ul,
 .generic ul{
     font-size: 1.3em;
     line-height: 1.5;
     letter-spacing: 2px;
     border-bottom: 1px #354649;
 }
-.generic ul li a{
+.generic ul li a,
+.generic2 ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0)
 }
 
-.generic h2{
+.generic h2,
+.generic2 h2{
     display: inline-block;
     margin: 0vw 0vw 2vw 0vw;
     text-transform: uppercase;
@@ -188,7 +207,8 @@ li{
     text-align: left;
     font-size: 2rem;
 }
-.generic ul{
+.generic ul
+.generic2 ul{
     padding: 0vw 0vw 0vw 2vw;
 }
 
