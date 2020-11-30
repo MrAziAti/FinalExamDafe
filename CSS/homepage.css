@@ -59,10 +59,15 @@
     display: block;
     text-align: left;
     padding: 80px;
+
     
-}
-.texten{
+} 
+
+.texten,
+.texten p a{
     font-size: 20px;
+    text-decoration: none;
+    
 }
 .container img{
     display: block;
