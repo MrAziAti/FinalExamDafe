@@ -46,7 +46,9 @@
     text-align: center;
     padding-top:6rem;
 }
-    
+.heading h2{
+    color: #6C7A89;
+}   
 
 .float-container{ 
     width: 100%;
@@ -69,7 +71,7 @@
     
     
 }
- 
+
 .images{
     display: block;
     text-align: center;
@@ -83,8 +85,6 @@
     color:white;
 }
 
-
-
 .text{
     width: 60%;
     font-size: 20px;
@@ -92,6 +92,7 @@
     margin: 20px;
     padding: 50px;
 }
+
 .labelHeading{
     text-align: center;
     text-transform: uppercase;
@@ -127,7 +128,12 @@ ul.labels {
     width: 100%;
     overflow-x: auto;
     margin-top:2rem;
+    background-color: #E0E7E9;
     
+    
+}
+.merker{
+    background-color:#E0E7E9 ;
 }
 @media (max-width: 900px) {
     .float-container {

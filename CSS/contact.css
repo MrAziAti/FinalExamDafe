@@ -2,7 +2,7 @@
 
 .container{
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 150px;
     color: #354649;
     display: flex;
@@ -16,10 +16,10 @@
     background-color: #E0E7E9;
     border-radius: 25px;
     height: auto;
-    width: 45%;
+    width: 35%;
     color: #354649;
     height: auto;
-    flex: 40%;
+    
     padding: 30px;
     text-align: center;
     align-items: center;

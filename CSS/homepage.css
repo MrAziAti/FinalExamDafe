@@ -105,9 +105,10 @@ h2{
 
 
 @media (max-width: 900px) {
+    
     .container {
         flex-direction: column;
-        margin-top: 120px;
+        padding-top: 120px;
         height: auto;
         width: 100%;
     }
@@ -128,37 +129,11 @@ h2{
 
     .smooth a {
         width: 30%;
+        padding-top: 50px;
+        
     }
 }
-@media (max-width: 550px) {
-    .container {
-        flex-direction: column;
-        margin-top: 120px;
-        height: auto;
-        width: 100%;
-    }
 
-    .container img {
-        max-width: 300px;
-        flex-direction: column;
-    }
-    .text{
-        width: 100%;
-    }
-
-    .logo img {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .smooth{
-        scroll-behavior: smooth;
-    }
-    .smooth a {
-        width: 40%;
-    }
-}
    
     
     

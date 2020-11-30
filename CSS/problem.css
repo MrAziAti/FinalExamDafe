@@ -21,11 +21,22 @@
     text-transform: uppercase;
     font-weight: 600;
     color: #354649;
-    padding: 60px 20px;
-    /*border: 0.2px solid #354649;
-    box-shadow: 2px 0px 2px 0 #354649;*/
     border-radius: 5px;
     
+    
+}
+.smooth a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    transition: all 0.2s linear;
+}
+.smooth a:hover::after{
+    width: 100%;
+    background-color: #354649;
 }
 
 /*Dette er min jon sin css fil den innheholder noen bilder, 3 sectios og noen classes */
@@ -37,6 +48,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items:center;
+    padding-top:3rem;
     
 }
 #secondaryContent{
@@ -48,6 +60,7 @@
     background-color: #E0E7E9;
     justify-content: center;
     align-items: center;
+   
 }
 
 #thirdcontent{
@@ -142,6 +155,7 @@
         flex-direction: column;
         height: auto;
         text-align: center;
+
     }
    
 
@@ -162,7 +176,7 @@
     }
     .column > img{
         width: 100%;
-        height:auto;
+        max-height: 100%;
 
     }
     .logo img{
