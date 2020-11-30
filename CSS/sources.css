@@ -358,9 +358,6 @@ li{
     color: #fff;
 }
 
-.logo1 {
-}
-
 /*NAVBAR Media*/
 @media (max-width: 800px) {
     .navbar {
