@@ -15,7 +15,8 @@
 .kontaktskjema{
     background-color: #E0E7E9;
     border-radius: 25px;
-    width: 35%;
+    height: auto;
+    width: 45%;
     color: #354649;
     height: auto;
     flex: 40%;

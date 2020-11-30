@@ -44,7 +44,7 @@
     align-content: center;
     margin-bottom: 2rem;
     text-align: center;
-    margin-top:2rem;
+    padding-top:6rem;
 }
     
 
@@ -57,6 +57,33 @@
     align-items: center;
     text-align: center; 
 }
+.float-container2{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #354649;
+    padding: 20px;
+    
+    
+}
+ 
+.images{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.images p{
+    padding-top: 50px;
+    text-align: left;
+    color:white;
+}
+
+
 
 .text{
     width: 60%;
@@ -109,6 +136,12 @@ ul.labels {
         height: auto;
         width:100%;
         text-align: center;
+      
+    }
+    .float-container2{
+        flex-direction: column;
+        height: auto;
+   
     }
 
     .image {
@@ -139,8 +172,13 @@ ul.labels {
         height: auto;
         width: 100%;
     }
+    .float-container2{
+        flex-direction: column;
+        height: auto;
+    }
 
     .image {
+        margin-top:2rem;
         /*max-width: 100%;*/
         flex-direction: column;
         text-align: center;

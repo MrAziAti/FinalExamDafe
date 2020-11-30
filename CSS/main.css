@@ -13,11 +13,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 #header{
     background-color: #E0E7E9;
-
+    width: 100%;
+    position:fixed;
 }
 #header .logo{
     height: 10px;

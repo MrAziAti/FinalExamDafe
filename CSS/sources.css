@@ -254,11 +254,11 @@ li{
     line-height: 1.5;
     letter-spacing: 2px;
     border-bottom: 1px #354649;
+    text-decoration: none;
 }
 .generic ul li a,
 .generic2 ul li a{
     text-decoration: none;
-    color: rgb(0, 0, 0)
 }
 
 .generic h2,
@@ -279,6 +279,10 @@ li{
     margin: 2vw;
     font-weight: bold;
 }
+.smallHead a{
+    text-decoration: none;
+}
+
 .img-responsive{
     max-width: 100%;
     height: auto;

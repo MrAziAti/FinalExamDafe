@@ -3,9 +3,6 @@
     background-color: #E0E7E9;
 }
 
-
-
-
 .smooth{
     scroll-behavior: smooth;
     text-transform: uppercase;
@@ -15,6 +12,7 @@
     width: 100%;
     bottom: 80px;
     padding-bottom: 60px;
+
 }
 .smooth a{
     
@@ -29,7 +27,6 @@
     font-weight: 600;
     color: #354649;
     padding: 5px 20px;
-
     border-radius: 5px;
     
 
@@ -91,7 +88,7 @@ h2{
 }
 .buttonClass a{
 
-    position: relative;
+   
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -103,20 +100,6 @@ h2{
     border-radius: 5px;
     border: 0.2px solid #354649;
     box-shadow: 2px 0px 2px 0 #354649;
-
-}
-.buttonClass a::after{
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    content: '';
-    width: 0;
-    height: 3px;
-    transition: all 0.2s linear;
-}
-.buttonClass a:hover::after{
-    width: 100%;
-    background-color: #354649;
 }
 
 
