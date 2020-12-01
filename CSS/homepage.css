@@ -42,6 +42,7 @@
 }
 .smooth a:hover::after{
     width: 100%;
+    
     background-color: #354649;
 }
 .container{

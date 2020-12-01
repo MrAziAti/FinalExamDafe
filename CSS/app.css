@@ -47,7 +47,7 @@
     padding-top:6rem;
 }
 .heading h2{
-    color: #6C7A89;
+    color: rgb(18, 75, 18);
 }   
 
 .float-container{ 
@@ -56,12 +56,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center ;
-    align-items: center;
+    
     text-align: center; 
 }
 .float-container2{
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
@@ -74,14 +74,16 @@
     display: block;
     text-align: center;
     padding: 20px;
+    width: 20%;
+
+    
     
     
 }
 .images p{
     padding-top: 10px;
-    text-align: left;
+    text-align: center;
     color:white;
-    position: relative;
     width: 100%;
     align-items: center;
 }
@@ -116,7 +118,7 @@
     
 }
 .p-quote{
-    background-color:  #E0E7E9;
+    
     padding:2rem;
     width:100%;
 }
@@ -129,12 +131,9 @@ ul.labels {
     width: 100%;
     overflow-x: auto;
     margin-top:2rem;
-    background-color: #E0E7E9;
     
     
-}
-.merker{
-    background-color:#E0E7E9 ;
+    
 }
 @media (max-width: 900px) {
     .float-container {
@@ -143,12 +142,24 @@ ul.labels {
         height: auto;
         width:100%;
         text-align: center;
+        align-items: center;
+
       
     }
     .float-container2{
         flex-direction: column;
         height: auto;
+        justify-content: center;
+        align-items: center;
    
+    }
+    .images{
+        text-align: center;
+        width: 100%;
+    }
+    .images p{
+        width: 100%;
+
     }
 
     .image {
@@ -164,44 +175,9 @@ ul.labels {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .smooth{
-        scroll-behavior: smooth;
+    .appstore img{
+        width: 300px;
     }
-    .smooth a {
-        width: 40%;
-    }
-}
-@media (max-width: 550px) {
-    .float-container {
-        flex-direction: column;
-        margin-top: 120px;
-        height: auto;
-        width: 100%;
-    }
-    .float-container2{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .image {
-        margin-top:2rem;
-        /*max-width: 100%;*/
-        flex-direction: column;
-        text-align: center;
-        display: inline;
-    }
-    .text{
-        width: 100%;
-    }
-
-    .logo img {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-
     .smooth{
         scroll-behavior: smooth;
     }
