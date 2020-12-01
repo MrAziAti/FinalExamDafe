@@ -24,50 +24,7 @@ body{
     padding-top: 0.3em;
     float: left;
 }
-.footer ul{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
--->.footer div{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
+
 .navbar {
     display: flex;
     position: relative;
@@ -196,28 +153,7 @@ li{
 
 }
 
--->.footer div{
-    margin: auto;
-    width: 20%;    
-}
-.sources p{
-    background-color: rgb(255, 115, 0);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.terms p{
-    background-color: rgb(37, 141, 127);
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    padding: 2vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
+
 
 /*-------------FOOTER------------*/
 
