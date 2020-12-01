@@ -14,6 +14,26 @@ body{
 
 /*<---------------------NAVBAR--------------------->*/
 
+.noscript{
+    display: inline-block;
+    padding: 2em;
+}
+.noscript li a{
+    text-decoration: none;
+    color: #354649;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+@media all and (min-width: 900px){
+    .noscript, .noscript li a{
+    display: none;
+    }
+    .navbar-links, .toggle-button, .navbar{
+        display: flex;
+    }
+}
+
 #header{
     background-color: #E0E7E9;
 }
@@ -24,18 +44,6 @@ body{
     float: left;
 }
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    margin-bottom:3rem;
-
-}
 .navbar-links {
     margin: 0;
     padding: 1em;
@@ -52,7 +60,8 @@ li{
 }
 .navbar-links ul li{
     margin: 0 0;
-    padding: 5px;
+    padding: 15px;
+    padding: 5px 20px;
 }
 .navbar-links ul{
     display: inline-block;
@@ -67,7 +76,6 @@ li{
     text-transform: uppercase;
     font-weight: 600;
     color: #354649;
-    padding: 5px 20px;
 }
 
 .navbar-links ul li a::after{
@@ -105,7 +113,11 @@ li{
 
 /*------------------------NAVBAR Media--------------------*/
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+    .logo{
+        display: none;
+    }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -138,63 +150,7 @@ li{
     }
 }
 
-@media (max-width: 900px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-
-}
-
-@media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-        margin-top: 120px;
-        height: auto;
-    }
-
-    .container img {
-        max-width: 300px;
-        flex-direction: column;
-    }
-
-    .logo img {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .smooth {
-        top: 30px;
-        bottom: 20px;
-    }
-}
 /*<--------------------Source menu---------------------->*/
 
 #sourceheader{
