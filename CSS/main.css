@@ -150,6 +150,9 @@ li{
 }
 
 @media (max-width: 900px) {
+    .logo{
+        display: none;
+    }
     .navbar {
         
         flex-direction: column;
