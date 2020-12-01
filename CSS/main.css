@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 body{
@@ -18,7 +17,6 @@ body{
 #header{
     background-color: #E0E7E9;
     width: 100%;
-    position:fixed;
 }
 #header .logo{
     height: 10px;
@@ -97,14 +95,14 @@ li{
 }
 .navbar-links ul li{
     margin: 0 0;
-    padding: 5px;
+    padding: 15px;
 }
 .navbar-links ul{
    
     display: inline-block;
     padding-left: 0;
     text-align: left;
-    
+    padding: 5px 20px;
 }
 
 .navbar-links ul li a{
@@ -114,7 +112,7 @@ li{
     text-transform: uppercase;
     font-weight: 600;
     color: #354649;
-    padding: 5px 20px;
+    
 }
 
 .navbar-links ul li a::after{
@@ -152,9 +150,10 @@ li{
 
 @media (max-width: 900px) {
     .navbar {
+        
         flex-direction: column;
         align-items: flex-start;
-       
+        
     }
 
     .toggle-button {
@@ -165,6 +164,7 @@ li{
     .navbar-links {
         display: none;
         width: 100%;
+        
  
     }
 
@@ -262,9 +262,7 @@ li{
 .sources a{
     color: #fff;
 }
-.logo1{
 
-}
 .logo1 a{
     text-decoration: none;
     list-style: none;

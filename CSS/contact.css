@@ -10,16 +10,16 @@
     justify-content: center ;
     align-items: center;
     text-align: center;
+    margin-bottom: 4rem;
+ 
 }
     
 .kontaktskjema{
     background-color: #E0E7E9;
     border-radius: 25px;
-    height: auto;
+    height: 100vh;
     width: 35%;
     color: #354649;
-    height: auto;
-    
     padding: 30px;
     text-align: center;
     align-items: center;
@@ -32,7 +32,7 @@
 
 .kontaktskjema-txt{
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
     color: #354649;
     border: 1px solid #354649; 
     border-radius: 10px;
@@ -46,7 +46,7 @@
 }
 .kontaktskjema-textarea{
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     color: black;
     border: 1px solid #354649; 
     border-radius: 10px;
@@ -80,18 +80,24 @@
     background-color: black;
 }
 .info{
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 
 @media (max-width: 900px){
-    .kontaktskjema {
-        flex-direction: column;
-        width: 50%;
+    .container{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        
     }
+    .kontaktskjema{
+        width:80%;
+     
+    }
+    
     .logo img{
         max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
+        max-height: 6.25rem;
     }
 
 }
